@@ -1,5 +1,5 @@
 Last week we learned that language processing -- and text processing by extension -- is difficult 
-for three reasons:
+for at least three reasons:
 
 - Ambiguity (e.g., The chicken is ready to eat) 
 - Change and variation (e.g., idk what's wrong with me frfr)
