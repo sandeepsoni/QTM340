@@ -3,5 +3,5 @@ Course materials for the "Practical Approaches to Data Science with Text" class 
 
 ## Notebooks
 
-* [https://colab.research.google.com/drive/198zJaHRdn0itKhBKf4nBCoWrqU5AaO6q?usp=sharing](02_programming.ipynb)
+* [02_programming.ipynb](https://colab.research.google.com/drive/198zJaHRdn0itKhBKf4nBCoWrqU5AaO6q?usp=sharing)
 
