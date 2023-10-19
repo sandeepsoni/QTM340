@@ -1,4 +1,4 @@
-In this homework, we will undergo an annotation task.
+In this homework, we will do an annotation task.
 
 Below are a set of 20 text excerpts taken from books. 
 Each expert contains a span of text that references a character and another span of text that references a place.
