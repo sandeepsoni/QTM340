@@ -1,0 +1,50 @@
+{
+    "question": "A bin has 8 black balls and 7 white balls.  3 of the balls are drawn at random.  What is the probability of drawing 2 of one color and 1 of the other color?",
+    "answer":0.8,
+    "explanation": "The number of ways to draw out 3 balls from 15 is $\\binom{15}{3}=455$.  We can choose 2 black balls and 1 white ball in $\\binom{8}{2}\\binom{7}{1}=196$ ways.  We can pick 1 black ball and 2 white balls in $\\binom{8}{1}\\binom{7}{2}=168$ ways.  Therefore we have $196+168=364$ ways to satisfy the condition, so the answer is $\\dfrac{364}{455}=\\boxed{\\frac{4}{5}}$."
+}
+{
+    "question": "A box contains 5 white balls and 6 black balls.  Five balls are drawn out of the box at random.  What is the probability that they all are white?",
+    "answer": 0.0022,
+    "explanation": "There are $\\binom{11}{5} = 462$ ways to choose 5 balls out of the box.  There is only $\\binom{5}{5} = 1$ way to choose 5 white balls out of 5.  This means that the probability that all 5 balls are white is $\\boxed{\\dfrac{1}{462}}$."
+}
+{
+    "question": "Jo adds up all the positive integers from 1 to 100. Kate does a similar thing with the first 100 positive integers; however, she first rounds every integer to its nearest multiple of 10 (rounding 5s up) and then adds the 100 values. What is the positive difference between Jo's sum and Kate's sum?",
+    "answer": 50,
+    "explanation": "Consider the numbers $1, 2, 3,..., 10$. Jo would add these integers up as is, while Kate would round the first four down to 0, decreasing her sum by $1+2+3+4=10$, and would round the last six up to 10, increasing her sum by $5+4+3+2+1+0=15$. Thus, her sum is $-10+15=5$ more than Jo's sum for the numbers $1, 2, 3,..., 10$. This same logic applies to the numbers $11, 12, 13,..., 20$ also, and in general it applies to every ten numbers greater than 20. Since there are ten sets of ten numbers from 1 to 100, Kate's sum is $10 \\cdot 5 = \\boxed{50}$ more than Jo's sum."
+}
+{
+    "question": "Rural School USA has 105 students enrolled. There are 60 boys and 45 girls. If $\\frac{1}{10}$ of the boys and $\\frac{1}{3}$ of the girls are absent on one day, what percent of the total student population is absent?",
+    "answer": 20,
+    "explanation": "$\\frac{1}{10}$ of $60$ boys is $60/10=6$ students, while $\\frac{1}{3}$ of $45$ girls is $45/3=15$ students, so $21$ students were absent that day. Since we know that $\\frac{21}{105}=\\frac{1}{5}$ and $\\frac{1}{5}$ is equal to $20\\%$, we know that $\\boxed{20 \\%}$ of the total student population was absent."
+}
+{
+    "question": "Cedric has deposited $\\$12,\\!000$ into an account that pays $5\\%$ interest compounded annually.\n\nDaniel has deposited $\\$12,\\!000$ into an account that pays $7\\%$ simple annual interest.\n\nIn $15$ years Cedric and Daniel compare their respective balances. To the nearest dollar, what is the positive difference between their balances?",
+    "answer": 347,
+    "explanation": "We may find Cedric's balance by simply finding $\\$12,\\!000(1 + 0.05)^{15} \\approx \\$24,\\!947.14.$\n\nWe may find Daniel balance by finding $\\$12,\\!000(1 + 15 \\cdot 0.07) \\approx \\$24,\\!600.$\n\nTherefore, the difference between their balances is roughly $\\$24,\\!947.14 - \\$24,\\!600 \\approx \\boxed{\\$347}.$"
+}
+{
+    "question": "Factor the expression $x(x+2)+(x+2)$.",
+    "answer": "(x+1)(x+2)",
+    "explanation": "We can factor the expression $x+2$ out of each term:  \\begin{align*}\nx(x+2)+(x+2) &= x \\cdot (x+2)+1 \\cdot (x+2)\\\\\n&= \\boxed{(x+1)(x+2)}\n\\end{align*}"
+}
+{
+    "question": "What is the value of $525^2 - 475^2$?",
+    "answer": 50000,
+    "explanation": "$525^2 - 475^2$ can also be expressed as $(525+475)(525-475)$. This simplifies to $1000 \\cdot 50$, which equals $\\boxed{50000}$."
+}
+{
+    "question": "Given that $-7$ is a solution to $x^2 + bx -28 = 0$, what is the value of $b$?",
+    "answer": 3,
+    "explanation": "The product of the roots of this quadratic is $-28/1=-28$, so the other solution must be $-28/-7=4$. That means that the sum of the solutions is $-7+4=-3$. The sum of the solutions is also $-b/1=-b$. Thus, $-b=-3$ and $b=\\boxed{3}$."
+}
+{
+    "question": "Ben rolls four fair 20-sided dice, and each of the dice has faces numbered from 1 to 20. What is the probability that exactly two of the dice show an even number?",
+    "answer": 0.375,
+    "explanation": "There is a $\\frac{1}{2}$ probability that a 20-sided die will show an even number and a $\\frac{1}{2}$ probability that it will show an odd number. We can choose which dice will show the even numbers in $\\binom{4}{2}=6$ ways. For each way, there is a $\\left( \\frac{1}{2} \\right) ^4=\\frac{1}{16}$ probability that the chosen dice actually roll even numbers and the other dice roll odd numbers. Therefore, the probability that exactly two of the dice show an even number is $6\\cdot \\frac{1}{16}=\\boxed{\\frac{3}{8}}$."
+}
+{
+    "question": "In how many distinct ways can I arrange my five keys on a keychain, if I want to put my house key next to my car key? Two arrangements are not considered different if the keys are in the same order (or can be made to be in the same order without taking the keys off the chain--that is, by reflection or rotation).",
+    "answer": 6,
+    "explanation": "First, put the house key and car key next to each other on the keychain. It doesn't matter where they are put, because the keychain can be rotated and reflected to move them to any other pair of adjacent locations. The remaining three keys can be put on the keychain in $3!=\\boxed{6}$ ways."
+}
